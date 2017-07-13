@@ -1,0 +1,96 @@
+// Place your settings in this file to overwrite the default settings
+{
+  // ###### EDITOR ######
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.rulers": [100],
+  "editor.renderWhitespace": "all",
+  "editor.fontSize": 11,
+
+  // ###### FILES ######
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "onWindowChange",
+
+	"eslint.autoFixOnSave": false,
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build": true,
+    "**/bower_components": true,
+    "webpack*": true,
+    "**/test": false
+  },
+
+  "stylelint.enable": true,
+  "css.validate": false,
+
+  "extensions.autoUpdate": false,
+
+  "javascript.validate.enable": false,
+  "window.zoomLevel": 0,
+
+  "files.exclude": {
+    "node_modules/": true,
+    ".DS_Store": true,
+    ".sass-cache": true,
+    ".publish": true,
+
+    ".idea/": true,
+
+    "public": true,
+    "Desktop.ini": true,
+    "node_modules": true,
+    "**/generated/_icons.sass": true,
+    "npm-debug.log": true,
+    ".awspublish*": true,
+    "build": false,
+
+    // VS Code
+    "typings*": true,
+    "jsconfig.json": true,
+    ".vscode": true,
+    ".tern-project": true,
+
+    "credentials": true,
+    "Dockerfile": true
+  },
+
+  "editor.snippetSuggestions": "top",
+  "path-intellisense.mappings": {
+    "src": "${workspaceRoot}/app/scripts/",
+    "images": "${workspaceRoot}/app/images/",
+    "fixtures": "${workspaceRoot}/test/test-fixtures/",
+    "test-helpers": "${workspaceRoot}/test/test-helpers/",
+    "common": "${workspaceRoot}/node_modules/plentific-common/plentific_common/templates/common/",
+    "plentific": "${workspaceRoot}/node_modules/plentific-js-common/",
+    "shared": "${workspaceRoot}/app/shared/scripts/"
+  }
+,
+"vsicons.projectDetection.autoReload": true,
+"workbench.editor.enablePreview": true,
+"editor.wordWrap": true,
+"[javascript]": {
+
+  },
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "vs-seti",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.minimap.enabled": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "guides.enabled": false,
+  "sync.gist": "ca5d87d5aaf86dece350ea5f7cd2d20d",
+  "sync.lastUpload": "2017-07-13T11:19:12.869Z",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastDownload": "",
+  "sync.forceDownload": false,
+  "sync.anonymousGist": false,
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false
+}
