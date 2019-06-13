@@ -6,7 +6,6 @@
   "editor.scrollBeyondLastLine": false,
   "editor.rulers": [100],
   "editor.renderWhitespace": "all",
-  "editor.fontSize": 11,
 
   // ###### FILES ######
   "files.trimTrailingWhitespace": true,
@@ -39,13 +38,13 @@
 
     ".idea/": true,
 
-    "public": true,
+    "public": false,
     "Desktop.ini": true,
     "node_modules": true,
     "**/generated/_icons.sass": true,
     "npm-debug.log": true,
     ".awspublish*": true,
-    "build": false,
+    "build": true,
 
     // VS Code
     "typings*": true,
@@ -58,7 +57,9 @@
   },
 
   "editor.snippetSuggestions": "top",
+
   "path-intellisense.mappings": {
+    "/": "${workspaceRoot}",
     "src": "${workspaceRoot}/app/scripts/",
     "images": "${workspaceRoot}/app/images/",
     "fixtures": "${workspaceRoot}/test/test-fixtures/",
@@ -70,27 +71,39 @@
 ,
 "vsicons.projectDetection.autoReload": true,
 "workbench.editor.enablePreview": true,
-"editor.wordWrap": true,
+"editor.wordWrap": "on",
 "[javascript]": {
 
   },
   "workbench.colorTheme": "Monokai",
-  "workbench.iconTheme": "vs-seti",
+  "workbench.iconTheme": "vscode-icons",
   "files.associations": {
-    "*.js": "javascriptreact"
+    "*.js": "javascriptreact, html"
   },
   "editor.minimap.enabled": false,
   "vsicons.dontShowNewVersionMessage": true,
   "guides.enabled": false,
-  "sync.gist": "ca5d87d5aaf86dece350ea5f7cd2d20d",
-  "sync.lastUpload": "2017-07-13T11:19:12.869Z",
+  "sync.gist": "4cb7d6116b39a73d68ff504ddba594eb",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
-  "sync.lastDownload": "",
   "sync.forceDownload": false,
-  "sync.anonymousGist": false,
-  "sync.host": "",
-  "sync.pathPrefix": "",
   "sync.quietSync": false,
-  "sync.askGistName": false
+  "sync.askGistName": false,
+
+  "latex-workshop.chktex.enabled": false,
+  "python.pythonPath": "${VIRTUAL_ENV}/bin/python",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.fontSize": 11,
+  "editor.fontWeight": "600",
+  "explorer.autoReveal": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.minimap.maxColumn": 100,
+  "files.defaultLanguage": "javascript",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "editor.tabCompletion": "on",
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "python.venvPath": "~/.virtualenvs",
+  "editor.accessibilitySupport": "off",
 }
