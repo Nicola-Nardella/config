@@ -1,54 +1,68 @@
-VISUAL STUDIO CODE SETTINGS SYNC
-Version: 2.8.2
-
-Upload Summary
-
+CODE SETTINGS SYNC UPLOAD SUMMARY
+Version: 3.2.9
 --------------------
-GITHUB TOKEN: 06d9501ae2e055ff6c27ea8c19ff076fe0c11906
-GITHUB GIST: ca5d87d5aaf86dece350ea5f7cd2d20d
-GITHUB GIST TYPE: Secret
+GitHub Token: e2f1f205f0918351463cd5d608ec7175af5195ce
+GitHub Gist: 4cb7d6116b39a73d68ff504ddba594eb
+GitHub Gist Type: Secret
 
+Restarting Visual Studio Code may be required to apply color and file icon theme.
 --------------------
+Files Uploaded:
+  extensions.json > extensions.json
+  keybindings.json > keybindingsMac.json
+  settings.json > settings.json
+  javascript.json > snippets|javascript.json
+  javascriptreact.json > snippets|javascriptreact.json
 
-If current theme / file icon extension is not installed. Restart will be Required to Apply Theme and File Icon.
+Extensions Ignored:
+  No extensions ignored.
 
+Extensions Removed:
+  No extensions removed.
 
-Files Upload.
-
-extensions.json
-keybindings.json > keybindingsMac.json
-settings.json
-javascript.json > snippets|javascript.json
-javascriptreact.json > snippets|javascriptreact.json
-vsicons.settings.json
-
-
-EXTENSIONS ADDED :
-
-Bookmarks - Version :0.15.2
-code-settings-sync - Version :2.8.2
-debugger-for-chrome - Version :3.1.6
-gitblame - Version :1.11.3
-githistory - Version :0.2.1
-gitignore - Version :0.5.0
-guides - Version :0.8.4
-html-snippets - Version :0.1.0
-node-module-intellisense - Version :1.3.0
-path-intellisense - Version :1.4.2
-project-manager - Version :0.18.1
-python - Version :0.6.7
-sass-indented - Version :1.4.1
-stylelint - Version :0.27.0
-theme-dark-monokai - Version :0.3.0
-vscode-auto-open-markdown-preview - Version :0.0.4
-vscode-babel-coloring - Version :0.0.4
-vscode-dash - Version :1.7.0
-vscode-eslint - Version :1.2.11
-vscode-flow - Version :276.3.0
-vscode-html-css - Version :0.1.7
-vscode-icons - Version :7.10.1
-vscode-npm-script - Version :0.2.0
-vscode-react-native - Version :0.3.2
-vscode-scss - Version :0.6.2
-vscode-stylesheet-formatter - Version :0.2.0
-vscode-svgviewer - Version :1.4.2
+Extensions Added:
+  auto-close-tag v0.5.6
+  beautify v1.5.0
+  Bookmarks v10.4.4
+  code-settings-sync v3.2.9
+  debugger-for-chrome v4.11.3
+  dotenv v1.0.1
+  gitblame v2.7.0
+  githistory v0.4.6
+  gitignore v0.6.0
+  Go v0.10.2
+  gotemplate v0.3.0
+  graphql-for-vscode v1.13.2
+  guides v0.9.3
+  html-snippets v0.2.1
+  latex-preview v0.5.1
+  latex-workshop v7.0.2
+  node-debug2 v1.33.0
+  node-module-intellisense v1.5.0
+  npm-intellisense v1.3.0
+  path-intellisense v1.4.2
+  project-manager v10.5.2
+  python v2019.5.18875
+  ReactSnippets v2.3.0
+  sass-indented v1.5.1
+  stylelint v0.49.0
+  theme-dark-monokai v0.3.0
+  vscode-apollo v1.7.1
+  vscode-auto-open-markdown-preview v0.0.4
+  vscode-babel-coloring v0.0.4
+  vscode-dash v2.1.0
+  vscode-docker v0.6.2
+  vscode-duplicate v1.2.1
+  vscode-eslint v1.9.0
+  vscode-graphql v0.2.3
+  vscode-html-css v0.2.0
+  vscode-icons v8.2.0
+  vscode-npm-script v0.3.7
+  vscode-pytest v0.1.1
+  vscode-react-native v0.9.2
+  vscode-scss v0.6.2
+  vscode-stylesheet-formatter v0.2.0
+  vscode-svgviewer v2.0.0
+  vscode-typescript-tslint-plugin v1.1.0
+--------------------
+Done.
